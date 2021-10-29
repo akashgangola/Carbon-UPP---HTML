@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{margin:0; padding:0; box-sizing: border-box;}
+img{ max-width: 100%;}
+body{font-family: 'Lato', sans-serif; font-weight: 400; color: #000000; font-size: 15px;}
+h1,h2,h3,h4,h5,h6{ font-weight: 400;}
+ul{ list-style: none; padding: 0px;}
+a{ text-decoration: none;}
+.pl1{ padding-left:15px;}
+.pr1{ padding-right:15px;}
+body .pr80{ padding-right: 80px;}
+body .pl60{ padding-left: 60px;}
+.ml1{ margin-left:15px;}
+body .pt0{ padding-top: 0px;}
+body .pb0{ padding-bottom: 0px;}
+.mr1{ margin-right:15px;}
+.mlauto{ margin-left: auto;}
+.cs-container{max-width:1170px; margin-left: auto; margin-right: auto;  padding-left:15px; padding-right:15px;}
+.navbrand{ width:160px;}
+.bnrtxt .csbtn { font-size: 18px;  border: none; font-weight: 900;  box-shadow: 3px 2px 10px 0px #777;  min-width: 200px; padding: 17px 10px;}
+.sw-theme-arrows .toolbar>.btn, .csbtn{ font-weight:700; min-width: 150px; padding:12px 15px ; display: inline-block; text-align: center; border: 1px solid #5A3F37; border-radius: 10px; color:#2C7744; font-size: 16px; background: #fff; }
+.csbtn:hover{ color:#fff;background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(90,63,55,1) 0%, rgba(44,119,68,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2c7744',GradientType=1 ); /* IE6-9 */ box-shadow:none !import;}
+.deflex{ display: flex; flex-wrap: wrap; flex-direction: row;}
+.csrow{ margin-left: -15px; margin-right: -15px;flex-wrap: wrap; display: flex; flex-direction: row;}
+.cscol8{flex:0 0 66.66%; max-width: 75%; padding-left: 15px;   padding-right: 15px;}
+.cscol3{flex:25%; max-width: 25%;padding-left: 15px;   padding-right: 15px;}
+.cscol4{flex:33.33%; max-width: 33.33%;padding-left: 15px;   padding-right: 15px;}
+.cscol6{flex:50%; max-width:50%; padding-left: 15px;   padding-right: 15px;}
+.cscol7{flex: 58.33333333%; max-width: 58.33333333%; padding-left: 15px;   padding-right: 15px;}
+.cscol5{flex: 41.66666%; max-width:41.666666%;padding-left: 15px;   padding-right: 15px;}
+.cscol9{flex:75%; max-width:75%;padding-left: 15px;   padding-right: 15px;}
+.cscol12{flex:100%; max-width:100%;padding-left: 15px;   padding-right: 15px;}
+.header{ padding: 20px 0px; position: absolute; z-index: 1; left:0px; width: 100%; top:0px;}
+.navbrand a{ font-size: 40px; color:#000;}
+label{ font-weight: 400;}
+.centeritem{align-items: center;}
+.textmiddle{ text-align: center;}
+
+
+/************* WELCOME PAGE *************/
+.whitecart path{ fill:#fff;}
+.ht100{ min-height: 100vh;}
+.bnrtxt{ max-width: 540px; margin-left: auto;}
+.bghome{ background:url("../img/bghome.png") no-repeat; background-size:100% 100%; }
+.bnrcntnt h1{ font-size: 48px; font-weight: 900;}
+.bnrcntnt p{  margin:45px 0px; font-weight: 900; max-width: 320px;}
+.bnrcntnt::before {background: url(../img/tree.png) no-repeat;background-size: auto 100%;
+  position: absolute; content: "";  right: 0px;  width: 50%;  top: 0px;  bottom: 0px;  background-position: right center;}
+.bnrcntnt2:before{background-image: url("../img/halftree.png");}
+.crclstp{position: absolute;right: 0px;  bottom: 0;}
+.crclstp img{max-width: 60%;}
+  /************* /WELCOME PAGE *************/
+/************* FORM *************/
+.rtimg{ position: absolute; right: 0px; padding-right: 0px; top:0px;}
+.rtimg img{ max-width: 80%;}
+.main{ padding-top: 100px; min-height: 100vh; padding-bottom: 60px;}
+.pl40{ padding-left: 40px;}
+.pr40{ padding-right: 40px;}
+.section-title{ font-size: 30px; font-weight: 400;}
+.formsubtag{ font-size: 18px; font-weight: 400;}
+.formlst .formrow{ margin-bottom: 50px;}
+.formsubtag{ margin: 50px 0px; margin-top: 40px;}
+.textright{ text-align: right;}
+.sbmtbtn{ height: 60px; min-width: 155px; margin-bottom: 110px;}
+.formbg{min-height:100vh; background: url("../img/bgform.png") no-repeat; background-position: center bottom; background-size: 100%;}
+/*.formbg::before{ position: absolute;background: url("../img/houseview.jpg") no-repeat; background-size: 100%;  right: 0px; content: ""; bottom: 0px; top:0px; width:36%; }*/
+.cslabel {padding-top: 14px;  display: inline-block;}
+/************* /FORM *************/
+/************* CUSTOM SELECTBOX *************/
+.select-hidden {  display: none;  visibility: hidden;padding-right: 10px;  }
+.rev-select {  cursor: pointer;  display: inline-block;  position: relative; font-size: 16px;  color: #fff;
+width: 100%;  height: 40px;  }
+.select-styled { position: absolute; color: rgba(0, 0, 0, 0.6);  top: 0; right: 0;  bottom: 0;  left: 0;  background-color: #fff;
+padding: 12px 15px; border:1px solid #BDBDBD; border-radius: 10px; min-height: 48px;  }
+.select-styled::after { content: "";  width: 0;  height: 0;  border: 8px solid transparent;
+border-color: #747474 transparent transparent transparent;  border-radius: 3px 3px 2px 2px; position: absolute;  top: 16px;  right: 10px;  }
+.select-styled:hover {  background-color: #ffff;  }
+.select-styled:active,  .select-styled.active {    background-color: #fff;  }
+.select-styled.active::after {   top: 9px;  border-color: transparent transparent #747474 transparent;  }
+.select-options { border:1px solid #ccc; display: none;  position: absolute;     box-shadow: 0px 0px 5px 0px #ccc;
+  margin: 0;   margin-top: 8px; top: 100%;  right: 0;  left: 0;  z-index: 999;   
+padding: 0;  list-style: none;  background-color: #fff; color: #555;  }
+.select-options li {  margin: 0;  padding: 12px 0; text-indent: 15px;  border-top: 1px solid #eee;    }
+.select-options li:hover {  color: #000; background: #fff;  }
+.select-options li[rel="hide"] {   display: none;  }
+.select-styled::after{ border:none; top:14px; width:20px; height:20px;background: url("../img/arrowdown.png") no-repeat center center; }
+.select-styled.active::after{ top:14px; transform: rotate(180deg);}
+.dropdowntop .select-options{ top:auto; bottom: 40px;}
+  /************* /CUSTOM SELECTBOX *************/
+  /************* LISTING *************/
+  .titlerow{ padding-bottom: 25px; min-height:140px;}
+  .titlerow h2{ font-size: 36px; font-weight: 500; margin-bottom: 8px;}
+  .titlerow p{ color: #565656; font-size: 24px;}
+  .cslistitem{ margin-bottom: 20px; padding:20px 40px;     margin-left: -40px;    margin-right: -40px;border-top:1px solid #ccc ;border-bottom:1px solid #ccc}
+  .cslistitem p{ margin:10px 0px ;}
+  .cslistitem i{ font-style: normal;}
+  .cslistitem strong{ padding-bottom: 12px; padding-right: 8px; color: #000000; display: inline-block;}
+  .cslistitem .csbtn{ min-width: 170px; margin-top: 20px; box-shadow: 0px 0px 12px 0px #ccc, 0px 0px 5px 0px #ccc inset;;}
+  .fs24{ font-size: 24px;} 
+  .fs30{ font-size: 30px;} 
+  .textgray{color: #565656;}
+    /************* /LISTING *************/
+/************* THANKS *************/
+.tnxtxt{ max-width: 600px; color: #5A3F37; margin-left: auto; margin-right: auto; font-weight: 600;}
+  .thnkspage{ position: relative; margin-bottom: -80px;}
+  .trophyhold{ position: absolute; left:50%; top: 50%; margin-top: -180px; max-width:300px; margin-left: -150px;}
+  /************* /THANKS *************/
+  /************* FOOTER *************/
+  .footer{ padding-top:80px ; padding-bottom: 60px; background:#C4C4C41A;}
+  .ftlogo{font-size: 40px; color: #000; margin-bottom: 40px;}
+  .sociallink a{ width:36px; height:40px; display: inline-block; margin-right: 10px;}
+  .fbicon{ background:url("../img/facebook.png") no-repeat center center;}
+  .instaicon{ background:url("../img/instagram.png") no-repeat center center;}
+  .twticon{ background:url("../img/twitter.png") no-repeat center center;}
+  .wegiht600 { font-weight: 600;}
+  .ftlinks h4{ margin-bottom: 30px;}
+  .ftlinks li{ margin-bottom: 30px;}
+  .ftlinks a{ font-size: 20px; color:#000000;}
+  /************* /FOOTER *************/
+  /************* SMART WIZARD *************/
+  .sw-theme-arrows>.tab-content>.tab-pane {  width: 100% !important;}
+  .sw-theme-arrows>.nav .nav-link::after{ display: none;}
+  .sw-theme-arrows>.nav .nav-link{ margin-right: 0px;}
+  .sw-theme-arrows>.nav .nav-link.inactive, .sw-theme-arrows>.nav .nav-link.active, .sw-theme-arrows>.nav .nav-link.done{ background:none; color: #000000;}
+  .sw-theme-arrows { border: none}
+  .smtwzd{margin-top: 40px;}
+  .smtwzd .nav-item .nav-link{ position: relative; padding-bottom: 20px;}
+  .smtwzd .nav-item .nav-link:before {  display: block;  border: none;   left: 0px;    right: 0px;
+    height: 5px;    background: #C4C4C4;    content: "";    position: absolute; width: 100%;
+    margin-bottom: 0;   bottom: 0px;    top: auto;}
+  .smtwzd .nav-item .nav-link.done:before, .smtwzd .nav-item .nav-link.active:before { /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5a3f37+0,2c7744+100 */
+  background: rgb(90,63,55); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(90,63,55,1) 0%, rgba(44,119,68,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a3f37', endColorstr='#2c7744',GradientType=1 ); /* IE6-9 */
+  }
+  .smtwzd .toolbar-top{ display: none;}
+  .smtwzd .sw-btn-prev{ float: left;}
+  .sw-theme-arrows .toolbar> .btn-info, .sw-theme-arrows .toolbar> .btn-danger{ display: none;}
+  .sw .toolbar>.btn.disabled, .sw .toolbar>.btn:disabled{ display: none;}
+  .toolbar-bottom .btn:nth-hildd(3){ display:block;}
+  /************* /SMART WIZARD *************/
+  /************* RANGE SLIDER  *************/
+  .al-range-slider__tooltip{ padding-right: 140px; bottom:40px; padding-left:6px; background:#fff;box-shadow: none; border: 1px solid #5A3F37; color: #000000;}
+  .al-range-slider__tooltip:before { position: absolute; right:6px; content:"daily servings per person";}
+  .csformcontrol{ color: rgba(0, 0, 0, 0.6);  background-color: #fff;
+    padding: 12px 15px;  width:100%;  border: 1px solid #BDBDBD;   border-radius: 10px;    min-height: 48px;}
+    .smplb{ padding-left: 35px; padding-right: 35px; margin-top:40px;}
+    .mt30{ margin-top:30px;}
+    .splbl .cslabel  { padding-top:8px;}
+	.formlst .sw>.tab-content {  margin-left: -90px;   margin-right: -90px; padding-left: 90px; padding-right: 90px;}
+	.al-range-slider__track{ height:2px; background:#C4C4C4;}
+		.al-range-slider__knob{box-shadow:none; border:none; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,5a3f37+0,2c7744+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(90,63,55,1) 0%, rgba(44,119,68,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2c7744',GradientType=1 ); /* IE6-9 */
+}
+.al-range-slider__bar{ box-shadow:none;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,5a3f37+0,2c7744+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(90,63,55,1) 0%, rgba(44,119,68,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2c7744',GradientType=1 ); /* IE6-9 */
+}
+.al-range-slider__grid-mark { font-size: 12px;color: #000; margin-top: 12px;}
+.al-range-slider__knob:hover, .al-range-slider__knob_active{box-shadow:none;}
+.al-range-slider{ padding-left:0px;padding-right:0px; padding-bottom:0px;}
+.formlst .rngbgp .formrow{ margin-bottom:0px;}
+.monthplcd .al-range-slider__tooltip{padding-left:15px;}
+.monthplcd .al-range-slider__tooltip:after { position: absolute; left:6px; content:"$";}
+.monthplcd .al-range-slider__tooltip:before{content:"/month"}
+.monthplcd .al-range-slider__tooltip{ padding-right:50px;}
+.scssmsg{ position:relative;}
+.sw-theme-arrows>.nav .nav-link{ pointer-events:none;}
+.sw-theme-arrows>.nav .nav-link.done, .sw-theme-arrows>.nav .nav-link.active{ pointer-events:all;}
+  /************* /RANGE SLIDER  *************/
+  .pr0{ padding-right: 0px;}
+/************* STEPS *************/  
+.rtimg img{ display:none;}
+.rtimg .showinstep1{ display:inline-block;}
+.stepsecond .rtimg .showinstep2{ display:inline-block;}
+.stepsecond .showinstep1, .stepthird .showinstep1,.stepforth .showinstep1, .stepfifth .showinstep1{ display:none;}
+.stepsecond .formbg{ background:none;}
+.stepforth .formbg, .stepfifth .formbg{ background:none;}
+.stepthird .formbg{ background:url("../img/step3bg.png") no-repeat center bottom ; background-size:100%;}
+.stepthird .rtimg .showinstep3{ display:inline-block;}
+.stepforth .rtimg .showinstep4{ display:inline-block;}
+.stepfifth .rtimg .showinstep5{ display:inline-block;}
+.stepfifth .toolbar-bottom .btn-info{ display:inline-block} 
+.sw-theme-arrows .toolbar>.btn.sw-btn-next, .stepfifth .toolbar-bottom .btn-info{ color:#fff;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,5a3f37+0,2c7744+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(90,63,55,1) 0%, rgba(44,119,68,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(90,63,55,1) 0%,rgba(44,119,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2c7744',GradientType=1 ); /* IE6-9 */}
+.sw-theme-arrows .toolbar>.btn.sw-btn-next:hover, .stepfifth .toolbar-bottom .btn-info:hover{ opacity:0.9;}
+.thnkspagewrp{ display:flex; min-height:calc(100vh - 400px) ; }
+.thnkspageint{ flex:0 0 100%; max-width:100%;}
+.thnkmn{ min-height:1px;}
+.stepsecond .main  {background:url("../img/scndstpbg.png") no-repeat left 80px ;} 
+.grdntcsbtn{border-radius: 5px;overflow:hidden; padding:1px;  border:none;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5a3f37+0,2c7744+100 */
+background: #5a3f37; /* Old browsers */
+background: -moz-linear-gradient(left,  #5a3f37 0%, #2c7744 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #5a3f37 0%,#2c7744 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #5a3f37 0%,#2c7744 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a3f37', endColorstr='#2c7744',GradientType=1 ); /* IE6-9 */
+}
+.grdntcsbtn:hover span{background: #5a3f37; /* Old browsers */
+background: -moz-linear-gradient(left,  #5a3f37 0%, #2c7744 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #5a3f37 0%,#2c7744 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #5a3f37 0%,#2c7744 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a3f37', endColorstr='#2c7744',GradientType=1 ); /* IE6-9 */}
+.grdntcsbtn span  {     border-radius: 5px;background:#fff; min-width: 100%;  padding: 12px 15px; display: inline-block; }
+ /************* /STEPS   *************/
+/************* MEDIA CSS *************/  
+@media all and (max-width:1500px){
+	.cslistitem .fs30 {  font-size: 24px;}
+	.cslistitem .fs24 { font-size: 18px;}
+	.ftlinks a {    font-size: 16px;}
+	.ftlinks h4{ font-size:20px;}
+}
+@media all and (max-width:1199px){
+	.bnrcntnt::before{ background-size:100%;}
+	.bghome{ background-size:cover;}
+	.titlerow h2 { font-size: 30px;}
+	.titlerow p {   font-size: 18px;}
+	.titlerow{ min-height:1px;}
+}
+@media all and (max-width:991px){
+	.formlst > .csrow > .cscol7{ flex: 100%;  max-width: 100%;}
+	.rtimg{ position:static;flex: 100%;  max-width: 100%;}
+	.formlst .sw>.tab-content { margin-left: -20px;    margin-right: -20px;    padding-left: 20px;    padding-right: 20px;}
+	.main.pl40{ padding-right:20px; padding-left:20px;}
+	.bnrtxt{ margin-left:0px;}
+	.thnkspage{ margin-bottom:40px;}
+	.trophyhold {  margin-top: -90px;    max-width: 180px;    margin-left: -90px;}
+	.rtimg{ display:none;}
+	.cslistitem {    padding: 20px 0px;  margin-left: 0px;  margin-right: 0px}
+	.formlst  { padding-right:0px;}.header .pl40{ padding-left:20px;}
+}
+@media all and (max-width:767px){
+	.fststep .cscol6 {  flex: 100%;  max-width: 100%;}
+	.cslabel{ padding-bottom:10px; padding-left:0px;}
+	.formlst .formrow { margin-bottom: 20px;}	
+	.smplb {  padding-left: 0px;  padding-right: 0px; margin-top:0px;}
+	.thrdstp .cscol6 { flex: 100%;  max-width: 100%;}
+	.thrdstp .smplb .cscol6 { flex: 50%;  max-width: 50%;}
+	.thrdstp .smplb .cscol6  .cscol6{ flex:100%;  max-width: 1000000%;}
+	.thrdstp .cscol3 { flex: 40%;  max-width: 40%;}
+	.thrdstp .cscol4 { flex: 60%;  max-width: 60%;}
+	.formlst .sw>.tab-content { margin-left: 0px;    margin-right: 0px;    padding-left: 0px;    padding-right: 0px;}
+	.thrdstp .cscol9 ~ .cscol3 { flex: 100%;  max-width: 100%;}
+	.thrdstp .cscol9 {  flex: 100%;  max-width: 100%;}
+	.sw-theme-arrows .toolbar>.btn, .csbtn { min-width: 130px;}
+	.bnrcntnt  .cscol6 {  flex: 100%;  max-width: 100%;}
+	.bnrcntnt::before{display:none;}
+	.bnrcntnt h1{ font-size:32px;}
+	.bnrcntnt p {  margin: 25px 0px; font-size:20px;}
+	body .bnrcntnt  { padding-top:60px;}
+	.bnrcntnt2{ text-align:center;}
+	.bnrcntnt2 p{ margin-left:auto;margin-right:auto;}
+	.bnrcntnt2 .cscol6{ position:static;text-align:center;}
+	.bnrcntnt2 .bnrtxt{ max-width:100%; text-align:center;margin-top: 60px;}
+	.footer .cscol3, .footer .cscol9{ flex:0 0 100%;max-width:100%;}
+	.footer .cscol9 .cscol3{ flex:0 0 50%;max-width:50%;}
+	.ftlogo{ margin-bottom:20px; font-size:30px;}
+	.sociallink { margin-bottom:20px;}
+	.footer { padding-top: 30px;  padding-bottom: 30px;}
+	.ftlinks a {    font-size: 14px;}
+	.ftlinks h4{ font-size:18px;}
+	
+	
+}
+@media all and (max-width:640px){
+	.sw-theme-arrows>.nav{ border:1px solid #ccc}
+}
+@media all and (max-width:575px){
+.navbrand a {font-size: 30px;}
+.header .csbtn {  min-width: 90px;}
+.navbrand {max-width: 160px; width:auto;}
+.cslistitem .cscol8{ flex:0 0 100%; max-width:100%; text-align:center; margin-top:15px; order:2;}
+.cslistitem .cscol4{ flex:0 0 100%; max-width:100%; text-align:center;}
+}
+@media all and (max-width:480px){
+	.header .pl40{ padding-left:15px; padding-right:15px;}
+	.crclstp img {  max-width: 100%;}
+	.trophyhold {  margin-top: -50px;   max-width: 100px;    margin-left: -50px;}
+	.tnxtxt { font-size:22px;}
+}
+@media (max-width: 400px){
+.thrdstp .cscol3 {  flex: 100%;  max-width: 100%;}	
+.thrdstp .cscol4 {  flex: 100%;  max-width: 100%;}
+.thrdstp .smplb .cscol6 {  flex: 100%;  max-width: 100%;}
+.thrdstp .csrow.mt30{ margin-top:10px;}
+.sw-theme-arrows .toolbar>.btn, .csbtn {  min-width: 100px;}
+.al-range-slider__tooltip { padding-right:130px;}
+}
+@media (max-width: 360px){
+	.header .pl1 {  padding-left: 8px;}
+	.header .csbtn { font-size: 13px; max-width:76px;}
+	.header li svg{ width:20px;}
+	.al-range-slider__tooltip {  padding-right: 114px;}
+}
+/************* /MEDIA CSS *************/  
